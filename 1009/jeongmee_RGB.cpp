@@ -21,5 +21,5 @@ int main() {
 		total[i][result] = MIN(MIN(total[i][R], total[i][G]), MIN(total[i][B], total[i][G]));
 	}
 	printf("%d", total[N-1][result]);
-    return 0;
+	return 0;
 }
